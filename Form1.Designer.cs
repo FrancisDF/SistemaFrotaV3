@@ -48,6 +48,15 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.BarraTop.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -62,6 +71,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // BarraTop
@@ -130,7 +145,7 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(714, 333);
+            this.panel2.Location = new System.Drawing.Point(522, 270);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(33, 28);
             this.panel2.TabIndex = 2;
@@ -168,13 +183,16 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.MintCream;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel5.Controls.Add(this.panel8);
             this.panel5.Controls.Add(this.panel7);
             this.panel5.Controls.Add(this.panel1);
+            this.panel5.Controls.Add(this.panel9);
             this.panel5.Controls.Add(this.panel6);
             this.panel5.Controls.Add(this.panel4);
+            this.panel5.Controls.Add(this.panel10);
             this.panel5.Location = new System.Drawing.Point(-9, 57);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1389, 148);
+            this.panel5.Size = new System.Drawing.Size(1389, 140);
             this.panel5.TabIndex = 4;
             // 
             // button1
@@ -230,7 +248,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(137, 46);
             this.button2.TabIndex = 5;
-            this.button2.Text = "     Lançamentos";
+            this.button2.Text = "      Lançamentos";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // panel7
@@ -265,6 +283,102 @@
             this.button3.Text = "    Gerenciar\r\n     distribuição";
             this.button3.UseVisualStyleBackColor = false;
             // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.pictureBox7);
+            this.panel8.Controls.Add(this.button4);
+            this.panel8.Location = new System.Drawing.Point(814, 101);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(112, 28);
+            this.panel8.TabIndex = 10;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.MintCream;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(0, 3);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox7.TabIndex = 5;
+            this.pictureBox7.TabStop = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.MintCream;
+            this.button4.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button4.Location = new System.Drawing.Point(-8, -9);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(137, 46);
+            this.button4.TabIndex = 5;
+            this.button4.Text = "Execução";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.pictureBox8);
+            this.panel9.Controls.Add(this.button5);
+            this.panel9.Location = new System.Drawing.Point(696, 101);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(112, 28);
+            this.panel9.TabIndex = 9;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.MintCream;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 5;
+            this.pictureBox8.TabStop = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.MintCream;
+            this.button5.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button5.Location = new System.Drawing.Point(-8, -9);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(137, 46);
+            this.button5.TabIndex = 5;
+            this.button5.Text = "Avaliação";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.pictureBox9);
+            this.panel10.Controls.Add(this.button6);
+            this.panel10.Location = new System.Drawing.Point(553, 101);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(121, 28);
+            this.panel10.TabIndex = 8;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.MintCream;
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox9.TabIndex = 5;
+            this.pictureBox9.TabStop = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.MintCream;
+            this.button6.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button6.Location = new System.Drawing.Point(-8, -9);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(137, 46);
+            this.button6.TabIndex = 5;
+            this.button6.Text = "        Cancelamaneto";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -291,6 +405,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.panel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            this.panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -316,5 +436,14 @@
         private Panel panel6;
         private PictureBox pictureBox5;
         private Button button2;
+        private Panel panel8;
+        private PictureBox pictureBox7;
+        private Button button4;
+        private Panel panel9;
+        private PictureBox pictureBox8;
+        private Button button5;
+        private Panel panel10;
+        private PictureBox pictureBox9;
+        private Button button6;
     }
 }
