@@ -1024,11 +1024,13 @@
             // 
             // button19
             // 
+            this.button19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.button19.Location = new System.Drawing.Point(-9, -8);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(265, 54);
             this.button19.TabIndex = 17;
-            this.button19.Text = "Manutenção";
+            this.button19.Text = "    Manutenção";
+            this.button19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button19.UseVisualStyleBackColor = true;
             // 
             // panel30
@@ -1041,11 +1043,13 @@
             // 
             // button21
             // 
+            this.button21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.button21.Location = new System.Drawing.Point(-9, -8);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(265, 54);
             this.button21.TabIndex = 17;
-            this.button21.Text = "Manutenção";
+            this.button21.Text = "   Credenciados";
+            this.button21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button21.UseVisualStyleBackColor = true;
             // 
             // panel32
@@ -1058,11 +1062,13 @@
             // 
             // button23
             // 
+            this.button23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.button23.Location = new System.Drawing.Point(-9, -8);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(265, 54);
             this.button23.TabIndex = 17;
-            this.button23.Text = "Manutenção";
+            this.button23.Text = "   Empresa/Prefeitura";
+            this.button23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button23.UseVisualStyleBackColor = true;
             // 
             // panel33
@@ -1075,11 +1081,13 @@
             // 
             // button24
             // 
+            this.button24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.button24.Location = new System.Drawing.Point(-9, -8);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(265, 54);
             this.button24.TabIndex = 17;
-            this.button24.Text = "Manutenção";
+            this.button24.Text = "   Administrador";
+            this.button24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button24.UseVisualStyleBackColor = true;
             // 
             // panel34
@@ -1092,11 +1100,13 @@
             // 
             // button25
             // 
+            this.button25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.button25.Location = new System.Drawing.Point(-9, -8);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(265, 54);
             this.button25.TabIndex = 17;
-            this.button25.Text = "Manutenção";
+            this.button25.Text = "   Finanças";
+            this.button25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button25.UseVisualStyleBackColor = true;
             // 
             // panel35
@@ -1109,11 +1119,13 @@
             // 
             // button26
             // 
+            this.button26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.button26.Location = new System.Drawing.Point(-9, -8);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(265, 54);
             this.button26.TabIndex = 17;
-            this.button26.Text = "Manutenção";
+            this.button26.Text = "   Empenho";
+            this.button26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button26.UseVisualStyleBackColor = true;
             // 
             // Form1
