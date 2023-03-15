@@ -98,6 +98,13 @@
             this.panel28 = new System.Windows.Forms.Panel();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.button20 = new System.Windows.Forms.Button();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.panel31 = new System.Windows.Forms.Panel();
             this.BarraTop.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -147,6 +154,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel28.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
+            this.panel26.SuspendLayout();
+            this.panel27.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            this.panel31.SuspendLayout();
             this.SuspendLayout();
             // 
             // BarraTop
@@ -905,6 +917,84 @@
             this.button20.Text = "   Historico";
             this.button20.UseVisualStyleBackColor = false;
             // 
+            // panel26
+            // 
+            this.panel26.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.panel26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel26.Controls.Add(this.panel27);
+            this.panel26.Controls.Add(this.panel31);
+            this.panel26.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.panel26.Location = new System.Drawing.Point(49, 579);
+            this.panel26.Name = "panel26";
+            this.panel26.Size = new System.Drawing.Size(1148, 46);
+            this.panel26.TabIndex = 14;
+            this.panel26.TabStop = true;
+            this.panel26.Visible = false;
+            // 
+            // panel27
+            // 
+            this.panel27.Controls.Add(this.pictureBox21);
+            this.panel27.Controls.Add(this.button18);
+            this.panel27.Location = new System.Drawing.Point(5, 15);
+            this.panel27.Name = "panel27";
+            this.panel27.Size = new System.Drawing.Size(112, 28);
+            this.panel27.TabIndex = 2;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.BackColor = System.Drawing.Color.MintCream;
+            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
+            this.pictureBox21.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox21.TabIndex = 5;
+            this.pictureBox21.TabStop = false;
+            // 
+            // button18
+            // 
+            this.button18.BackColor = System.Drawing.Color.MintCream;
+            this.button18.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button18.Location = new System.Drawing.Point(-8, -9);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(137, 46);
+            this.button18.TabIndex = 5;
+            this.button18.Text = "    Orçamentos";
+            this.button18.UseVisualStyleBackColor = false;
+            // 
+            // button22
+            // 
+            this.button22.BackColor = System.Drawing.Color.MintCream;
+            this.button22.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button22.Location = new System.Drawing.Point(-8, -9);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(137, 46);
+            this.button22.TabIndex = 5;
+            this.button22.Text = "    Cancelar o.s \r\n  finalizada";
+            this.button22.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.BackColor = System.Drawing.Color.MintCream;
+            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
+            this.pictureBox25.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox25.TabIndex = 5;
+            this.pictureBox25.TabStop = false;
+            // 
+            // panel31
+            // 
+            this.panel31.Controls.Add(this.pictureBox25);
+            this.panel31.Controls.Add(this.button22);
+            this.panel31.Location = new System.Drawing.Point(140, 15);
+            this.panel31.Name = "panel31";
+            this.panel31.Size = new System.Drawing.Size(112, 28);
+            this.panel31.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -912,6 +1002,7 @@
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.panel26);
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel18);
@@ -973,6 +1064,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel28.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
+            this.panel26.ResumeLayout(false);
+            this.panel27.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            this.panel31.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1048,5 +1144,12 @@
         private Panel panel28;
         private PictureBox pictureBox23;
         private Button button20;
+        private Panel panel26;
+        private Panel panel27;
+        private PictureBox pictureBox21;
+        private Button button18;
+        private Panel panel31;
+        private PictureBox pictureBox25;
+        private Button button22;
     }
 }
