@@ -42,22 +42,42 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.button5 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.button6 = new System.Windows.Forms.Button();
             this.ManutencaoOPS = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.button7 = new System.Windows.Forms.Button();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.button8 = new System.Windows.Forms.Button();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.button9 = new System.Windows.Forms.Button();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.button10 = new System.Windows.Forms.Button();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.button11 = new System.Windows.Forms.Button();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.button12 = new System.Windows.Forms.Button();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.button14 = new System.Windows.Forms.Button();
+            this.panel21 = new System.Windows.Forms.Panel();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.button15 = new System.Windows.Forms.Button();
+            this.panel23 = new System.Windows.Forms.Panel();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.button17 = new System.Windows.Forms.Button();
             this.BarraTop.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -68,17 +88,31 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel5.SuspendLayout();
-            this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.ManutencaoOPS.SuspendLayout();
+            this.panel11.SuspendLayout();
+            this.panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            this.panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            this.panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            this.panel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            this.panel16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            this.panel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            this.panel18.SuspendLayout();
+            this.panel20.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            this.panel21.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            this.panel23.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             this.SuspendLayout();
             // 
             // BarraTop
@@ -165,13 +199,13 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(137, 46);
             this.button1.TabIndex = 5;
-            this.button1.Text = "    Orçamentos";
+            this.button1.Text = "    Cadastro";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(522, 270);
+            this.panel2.Location = new System.Drawing.Point(80, 203);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(33, 28);
             this.panel2.TabIndex = 2;
@@ -215,38 +249,6 @@
             this.panel5.Size = new System.Drawing.Size(1389, 140);
             this.panel5.TabIndex = 4;
             // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.pictureBox7);
-            this.panel8.Controls.Add(this.button4);
-            this.panel8.Location = new System.Drawing.Point(671, 15);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(112, 28);
-            this.panel8.TabIndex = 10;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.MintCream;
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(0, 3);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(26, 22);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox7.TabIndex = 5;
-            this.pictureBox7.TabStop = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.MintCream;
-            this.button4.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
-            this.button4.Location = new System.Drawing.Point(-8, -9);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(137, 46);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Execução";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
             // panel7
             // 
             this.panel7.Controls.Add(this.pictureBox6);
@@ -276,40 +278,8 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(137, 46);
             this.button3.TabIndex = 5;
-            this.button3.Text = "    Gerenciar\r\n     distribuição";
+            this.button3.Text = "    Atuação";
             this.button3.UseVisualStyleBackColor = false;
-            // 
-            // panel9
-            // 
-            this.panel9.Controls.Add(this.pictureBox8);
-            this.panel9.Controls.Add(this.button5);
-            this.panel9.Location = new System.Drawing.Point(553, 15);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(112, 28);
-            this.panel9.TabIndex = 9;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.MintCream;
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(26, 22);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox8.TabIndex = 5;
-            this.pictureBox8.TabStop = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.MintCream;
-            this.button5.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
-            this.button5.Location = new System.Drawing.Point(-8, -9);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(137, 46);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Avaliação";
-            this.button5.UseVisualStyleBackColor = false;
             // 
             // panel6
             // 
@@ -340,51 +310,16 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(137, 46);
             this.button2.TabIndex = 5;
-            this.button2.Text = "      Lançamentos";
+            this.button2.Text = "      Regiões";
             this.button2.UseVisualStyleBackColor = false;
-            // 
-            // panel10
-            // 
-            this.panel10.Controls.Add(this.pictureBox9);
-            this.panel10.Controls.Add(this.button6);
-            this.panel10.Location = new System.Drawing.Point(410, 15);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(121, 28);
-            this.panel10.TabIndex = 8;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.MintCream;
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(26, 22);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox9.TabIndex = 5;
-            this.pictureBox9.TabStop = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.MintCream;
-            this.button6.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
-            this.button6.Location = new System.Drawing.Point(-8, -9);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(137, 46);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "        Cancelamaneto";
-            this.button6.UseVisualStyleBackColor = false;
             // 
             // ManutencaoOPS
             // 
             this.ManutencaoOPS.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.ManutencaoOPS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ManutencaoOPS.Controls.Add(this.panel8);
             this.ManutencaoOPS.Controls.Add(this.panel4);
             this.ManutencaoOPS.Controls.Add(this.panel7);
-            this.ManutencaoOPS.Controls.Add(this.panel10);
             this.ManutencaoOPS.Controls.Add(this.panel6);
-            this.ManutencaoOPS.Controls.Add(this.panel9);
             this.ManutencaoOPS.ImeMode = System.Windows.Forms.ImeMode.On;
             this.ManutencaoOPS.Location = new System.Drawing.Point(49, 340);
             this.ManutencaoOPS.Name = "ManutencaoOPS";
@@ -393,6 +328,327 @@
             this.ManutencaoOPS.TabStop = true;
             this.ManutencaoOPS.Visible = false;
             // 
+            // panel11
+            // 
+            this.panel11.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.panel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel11.Controls.Add(this.panel12);
+            this.panel11.Controls.Add(this.panel13);
+            this.panel11.Controls.Add(this.panel14);
+            this.panel11.Controls.Add(this.panel15);
+            this.panel11.Controls.Add(this.panel16);
+            this.panel11.Controls.Add(this.panel17);
+            this.panel11.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.panel11.Location = new System.Drawing.Point(49, 288);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(1148, 46);
+            this.panel11.TabIndex = 11;
+            this.panel11.TabStop = true;
+            this.panel11.Visible = false;
+            // 
+            // panel12
+            // 
+            this.panel12.Controls.Add(this.pictureBox10);
+            this.panel12.Controls.Add(this.button7);
+            this.panel12.Location = new System.Drawing.Point(671, 15);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(112, 28);
+            this.panel12.TabIndex = 10;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.MintCream;
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(0, 3);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox10.TabIndex = 5;
+            this.pictureBox10.TabStop = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.MintCream;
+            this.button7.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button7.Location = new System.Drawing.Point(-8, -9);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(137, 46);
+            this.button7.TabIndex = 5;
+            this.button7.Text = "Execução";
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // panel13
+            // 
+            this.panel13.Controls.Add(this.pictureBox11);
+            this.panel13.Controls.Add(this.button8);
+            this.panel13.Location = new System.Drawing.Point(5, 15);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(112, 28);
+            this.panel13.TabIndex = 2;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.BackColor = System.Drawing.Color.MintCream;
+            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
+            this.pictureBox11.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox11.TabIndex = 5;
+            this.pictureBox11.TabStop = false;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.MintCream;
+            this.button8.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button8.Location = new System.Drawing.Point(-8, -9);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(137, 46);
+            this.button8.TabIndex = 5;
+            this.button8.Text = "    Orçamentos";
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // panel14
+            // 
+            this.panel14.Controls.Add(this.pictureBox12);
+            this.panel14.Controls.Add(this.button9);
+            this.panel14.Location = new System.Drawing.Point(275, 15);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(112, 28);
+            this.panel14.TabIndex = 7;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BackColor = System.Drawing.Color.MintCream;
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox12.TabIndex = 5;
+            this.pictureBox12.TabStop = false;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.MintCream;
+            this.button9.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button9.Location = new System.Drawing.Point(-8, -9);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(137, 46);
+            this.button9.TabIndex = 5;
+            this.button9.Text = "    Gerenciar\r\n     distribuição";
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // panel15
+            // 
+            this.panel15.Controls.Add(this.pictureBox13);
+            this.panel15.Controls.Add(this.button10);
+            this.panel15.Location = new System.Drawing.Point(410, 15);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(121, 28);
+            this.panel15.TabIndex = 8;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.BackColor = System.Drawing.Color.MintCream;
+            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
+            this.pictureBox13.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox13.TabIndex = 5;
+            this.pictureBox13.TabStop = false;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.MintCream;
+            this.button10.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button10.Location = new System.Drawing.Point(-8, -9);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(137, 46);
+            this.button10.TabIndex = 5;
+            this.button10.Text = "        Cancelamaneto";
+            this.button10.UseVisualStyleBackColor = false;
+            // 
+            // panel16
+            // 
+            this.panel16.Controls.Add(this.pictureBox14);
+            this.panel16.Controls.Add(this.button11);
+            this.panel16.Location = new System.Drawing.Point(140, 15);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(112, 28);
+            this.panel16.TabIndex = 6;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.BackColor = System.Drawing.Color.MintCream;
+            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
+            this.pictureBox14.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox14.TabIndex = 5;
+            this.pictureBox14.TabStop = false;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.MintCream;
+            this.button11.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button11.Location = new System.Drawing.Point(-8, -9);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(137, 46);
+            this.button11.TabIndex = 5;
+            this.button11.Text = "      Lançamentos";
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // panel17
+            // 
+            this.panel17.Controls.Add(this.pictureBox15);
+            this.panel17.Controls.Add(this.button12);
+            this.panel17.Location = new System.Drawing.Point(553, 15);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(112, 28);
+            this.panel17.TabIndex = 9;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.BackColor = System.Drawing.Color.MintCream;
+            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
+            this.pictureBox15.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox15.TabIndex = 5;
+            this.pictureBox15.TabStop = false;
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.MintCream;
+            this.button12.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button12.Location = new System.Drawing.Point(-8, -9);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(137, 46);
+            this.button12.TabIndex = 5;
+            this.button12.Text = "Avaliação";
+            this.button12.UseVisualStyleBackColor = false;
+            // 
+            // panel18
+            // 
+            this.panel18.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.panel18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel18.Controls.Add(this.panel20);
+            this.panel18.Controls.Add(this.panel21);
+            this.panel18.Controls.Add(this.panel23);
+            this.panel18.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.panel18.Location = new System.Drawing.Point(49, 392);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(1148, 46);
+            this.panel18.TabIndex = 12;
+            this.panel18.TabStop = true;
+            this.panel18.Visible = false;
+            // 
+            // panel20
+            // 
+            this.panel20.Controls.Add(this.pictureBox17);
+            this.panel20.Controls.Add(this.button14);
+            this.panel20.Location = new System.Drawing.Point(5, 15);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(112, 28);
+            this.panel20.TabIndex = 2;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.BackColor = System.Drawing.Color.MintCream;
+            this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
+            this.pictureBox17.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox17.TabIndex = 5;
+            this.pictureBox17.TabStop = false;
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.MintCream;
+            this.button14.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button14.Location = new System.Drawing.Point(-8, -9);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(137, 46);
+            this.button14.TabIndex = 5;
+            this.button14.Text = "    Login";
+            this.button14.UseVisualStyleBackColor = false;
+            // 
+            // panel21
+            // 
+            this.panel21.Controls.Add(this.pictureBox18);
+            this.panel21.Controls.Add(this.button15);
+            this.panel21.Location = new System.Drawing.Point(275, 15);
+            this.panel21.Name = "panel21";
+            this.panel21.Size = new System.Drawing.Size(112, 28);
+            this.panel21.TabIndex = 7;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.BackColor = System.Drawing.Color.MintCream;
+            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
+            this.pictureBox18.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox18.TabIndex = 5;
+            this.pictureBox18.TabStop = false;
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.MintCream;
+            this.button15.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button15.Location = new System.Drawing.Point(-8, -9);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(137, 46);
+            this.button15.TabIndex = 5;
+            this.button15.Text = "    Tipos";
+            this.button15.UseVisualStyleBackColor = false;
+            // 
+            // panel23
+            // 
+            this.panel23.Controls.Add(this.pictureBox20);
+            this.panel23.Controls.Add(this.button17);
+            this.panel23.Location = new System.Drawing.Point(140, 15);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(112, 28);
+            this.panel23.TabIndex = 6;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.BackColor = System.Drawing.Color.MintCream;
+            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
+            this.pictureBox20.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox20.TabIndex = 5;
+            this.pictureBox20.TabStop = false;
+            // 
+            // button17
+            // 
+            this.button17.BackColor = System.Drawing.Color.MintCream;
+            this.button17.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button17.Location = new System.Drawing.Point(-8, -9);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(137, 46);
+            this.button17.TabIndex = 5;
+            this.button17.Text = "      Cancelar o.s \r\n    Autorizada";
+            this.button17.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -400,6 +656,8 @@
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.panel18);
+            this.Controls.Add(this.panel11);
             this.Controls.Add(this.ManutencaoOPS);
             this.Controls.Add(this.BarraTop);
             this.Controls.Add(this.panel5);
@@ -418,17 +676,31 @@
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel5.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.panel10.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ManutencaoOPS.ResumeLayout(false);
+            this.panel11.ResumeLayout(false);
+            this.panel12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            this.panel13.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            this.panel14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            this.panel15.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            this.panel16.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            this.panel17.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            this.panel18.ResumeLayout(false);
+            this.panel20.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            this.panel21.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            this.panel23.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -454,15 +726,35 @@
         private Panel panel6;
         private PictureBox pictureBox5;
         private Button button2;
-        private Panel panel8;
-        private PictureBox pictureBox7;
-        private Button button4;
-        private Panel panel9;
-        private PictureBox pictureBox8;
-        private Button button5;
-        private Panel panel10;
-        private PictureBox pictureBox9;
-        private Button button6;
         private Panel ManutencaoOPS;
+        private Panel panel11;
+        private Panel panel12;
+        private PictureBox pictureBox10;
+        private Button button7;
+        private Panel panel13;
+        private PictureBox pictureBox11;
+        private Button button8;
+        private Panel panel14;
+        private PictureBox pictureBox12;
+        private Button button9;
+        private Panel panel15;
+        private PictureBox pictureBox13;
+        private Button button10;
+        private Panel panel16;
+        private PictureBox pictureBox14;
+        private Button button11;
+        private Panel panel17;
+        private PictureBox pictureBox15;
+        private Button button12;
+        private Panel panel18;
+        private Panel panel20;
+        private PictureBox pictureBox17;
+        private Button button14;
+        private Panel panel21;
+        private PictureBox pictureBox18;
+        private Button button15;
+        private Panel panel23;
+        private PictureBox pictureBox20;
+        private Button button17;
     }
 }
