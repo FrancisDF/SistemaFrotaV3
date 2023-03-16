@@ -63,7 +63,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.MintCream;
+            this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.text_login);
@@ -103,7 +103,7 @@
             // 
             // text_login
             // 
-            this.text_login.BackColor = System.Drawing.Color.MintCream;
+            this.text_login.BackColor = System.Drawing.Color.White;
             this.text_login.Location = new System.Drawing.Point(30, 100);
             this.text_login.Multiline = true;
             this.text_login.Name = "text_login";
@@ -149,7 +149,8 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.MintCream;
+            this.button2.AllowDrop = true;
+            this.button2.BackColor = System.Drawing.Color.White;
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button2.Location = new System.Drawing.Point(-9, -10);
             this.button2.Name = "button2";
@@ -168,7 +169,8 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.MintCream;
+            this.button1.AllowDrop = true;
+            this.button1.BackColor = System.Drawing.Color.White;
             this.button1.ForeColor = System.Drawing.Color.Red;
             this.button1.Location = new System.Drawing.Point(-16, -10);
             this.button1.Name = "button1";
@@ -188,7 +190,7 @@
             // 
             // text_senha
             // 
-            this.text_senha.BackColor = System.Drawing.Color.MintCream;
+            this.text_senha.BackColor = System.Drawing.Color.White;
             this.text_senha.Location = new System.Drawing.Point(30, 146);
             this.text_senha.Multiline = true;
             this.text_senha.Name = "text_senha";
@@ -231,7 +233,6 @@
         private Panel panel1;
         private Panel panel3;
         private TextBox text_senha;
-        private Panel panel2;
         private Panel panel4;
         private ComboBox comboBox1;
         private Panel panel5;
@@ -243,5 +244,6 @@
         private Label label3;
         private Label label2;
         private TextBox text_login;
+        private Panel panel2;
     }
 }
