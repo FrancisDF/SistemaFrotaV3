@@ -44,16 +44,12 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.text_senha = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -67,7 +63,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.BackColor = System.Drawing.Color.MintCream;
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.text_login);
@@ -81,6 +77,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(210, 264);
             this.panel3.TabIndex = 2;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint_1);
             // 
             // label3
             // 
@@ -106,6 +103,7 @@
             // 
             // text_login
             // 
+            this.text_login.BackColor = System.Drawing.Color.MintCream;
             this.text_login.Location = new System.Drawing.Point(30, 100);
             this.text_login.Multiline = true;
             this.text_login.Name = "text_login";
@@ -151,13 +149,14 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.MintCream;
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button2.Location = new System.Drawing.Point(-9, -10);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(111, 38);
             this.button2.TabIndex = 1;
             this.button2.Text = "recuperar_senha";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // panel4
             // 
@@ -169,16 +168,18 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.MintCream;
             this.button1.ForeColor = System.Drawing.Color.Red;
             this.button1.Location = new System.Drawing.Point(-16, -10);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(79, 38);
             this.button1.TabIndex = 1;
             this.button1.Text = "acessar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // comboBox1
             // 
+            this.comboBox1.BackColor = System.Drawing.Color.White;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(30, 188);
             this.comboBox1.Name = "comboBox1";
@@ -187,6 +188,7 @@
             // 
             // text_senha
             // 
+            this.text_senha.BackColor = System.Drawing.Color.MintCream;
             this.text_senha.Location = new System.Drawing.Point(30, 146);
             this.text_senha.Multiline = true;
             this.text_senha.Name = "text_senha";
@@ -195,36 +197,11 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Ivory;
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.Location = new System.Drawing.Point(208, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(210, 264);
             this.panel2.TabIndex = 1;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Yu Gothic UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(16, 43);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(181, 32);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Gestão de Frota";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(0, 43);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(210, 196);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Visible = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
             // 
             // Login
             // 
@@ -245,9 +222,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -265,11 +239,9 @@
         private Button button1;
         private Panel panel6;
         private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
         private Label label1;
         private Label label3;
         private Label label2;
         private TextBox text_login;
-        private Label label4;
     }
 }

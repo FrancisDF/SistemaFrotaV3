@@ -273,8 +273,9 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.MintCream;
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(0, 670);
+            this.panel2.Location = new System.Drawing.Point(79, 162);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(33, 28);
             this.panel2.TabIndex = 2;
@@ -291,8 +292,9 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.MintCream;
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(79, 162);
+            this.panel1.Location = new System.Drawing.Point(0, 704);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(33, 28);
             this.panel1.TabIndex = 1;
@@ -1027,7 +1029,7 @@
             // panel29
             // 
             this.panel29.Controls.Add(this.button19);
-            this.panel29.Location = new System.Drawing.Point(82, 238);
+            this.panel29.Location = new System.Drawing.Point(80, 218);
             this.panel29.Name = "panel29";
             this.panel29.Size = new System.Drawing.Size(245, 37);
             this.panel29.TabIndex = 15;
@@ -1046,7 +1048,7 @@
             // panel30
             // 
             this.panel30.Controls.Add(this.button21);
-            this.panel30.Location = new System.Drawing.Point(82, 281);
+            this.panel30.Location = new System.Drawing.Point(80, 261);
             this.panel30.Name = "panel30";
             this.panel30.Size = new System.Drawing.Size(245, 37);
             this.panel30.TabIndex = 18;
@@ -1065,7 +1067,7 @@
             // panel32
             // 
             this.panel32.Controls.Add(this.button23);
-            this.panel32.Location = new System.Drawing.Point(82, 324);
+            this.panel32.Location = new System.Drawing.Point(80, 304);
             this.panel32.Name = "panel32";
             this.panel32.Size = new System.Drawing.Size(245, 37);
             this.panel32.TabIndex = 19;
@@ -1084,7 +1086,7 @@
             // panel33
             // 
             this.panel33.Controls.Add(this.button24);
-            this.panel33.Location = new System.Drawing.Point(82, 453);
+            this.panel33.Location = new System.Drawing.Point(80, 433);
             this.panel33.Name = "panel33";
             this.panel33.Size = new System.Drawing.Size(245, 37);
             this.panel33.TabIndex = 22;
@@ -1103,7 +1105,7 @@
             // panel34
             // 
             this.panel34.Controls.Add(this.button25);
-            this.panel34.Location = new System.Drawing.Point(82, 410);
+            this.panel34.Location = new System.Drawing.Point(80, 390);
             this.panel34.Name = "panel34";
             this.panel34.Size = new System.Drawing.Size(245, 37);
             this.panel34.TabIndex = 21;
@@ -1122,7 +1124,7 @@
             // panel35
             // 
             this.panel35.Controls.Add(this.button26);
-            this.panel35.Location = new System.Drawing.Point(82, 367);
+            this.panel35.Location = new System.Drawing.Point(80, 347);
             this.panel35.Name = "panel35";
             this.panel35.Size = new System.Drawing.Size(245, 37);
             this.panel35.TabIndex = 20;
@@ -1143,7 +1145,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label3.Location = new System.Drawing.Point(-3, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(166, 40);
@@ -1156,6 +1158,7 @@
             this.panel8.Controls.Add(this.label5);
             this.panel8.Controls.Add(this.label4);
             this.panel8.Controls.Add(this.label3);
+            this.panel8.ForeColor = System.Drawing.SystemColors.Highlight;
             this.panel8.Location = new System.Drawing.Point(84, 16);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(573, 42);
@@ -1165,18 +1168,18 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label4.Location = new System.Drawing.Point(178, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(97, 40);
+            this.label4.Size = new System.Drawing.Size(181, 40);
             this.label4.TabIndex = 23;
-            this.label4.Text = "Nome";
+            this.label4.Text = "NicolasSafer";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.label5.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label5.Location = new System.Drawing.Point(154, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(29, 40);
@@ -1190,6 +1193,7 @@
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel33);
             this.Controls.Add(this.subFinancas);
@@ -1205,7 +1209,6 @@
             this.Controls.Add(this.subAdministrador);
             this.Controls.Add(this.BarraTop);
             this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel2);
             this.Enabled = false;
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
