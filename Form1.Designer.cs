@@ -42,14 +42,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.ManutencaoOPS = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
+            this.subManutencao = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.button7 = new System.Windows.Forms.Button();
@@ -68,7 +61,14 @@
             this.panel17 = new System.Windows.Forms.Panel();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.button12 = new System.Windows.Forms.Button();
-            this.panel18 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.SubCredenciados = new System.Windows.Forms.Panel();
+            this.subAdministrador = new System.Windows.Forms.Panel();
             this.panel20 = new System.Windows.Forms.Panel();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.button14 = new System.Windows.Forms.Button();
@@ -78,7 +78,7 @@
             this.panel23 = new System.Windows.Forms.Panel();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.button17 = new System.Windows.Forms.Button();
-            this.panel8 = new System.Windows.Forms.Panel();
+            this.SubEmpresa = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.button5 = new System.Windows.Forms.Button();
@@ -91,20 +91,20 @@
             this.panel24 = new System.Windows.Forms.Panel();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.button16 = new System.Windows.Forms.Button();
-            this.panel9 = new System.Windows.Forms.Panel();
+            this.subEmpenho = new System.Windows.Forms.Panel();
             this.panel25 = new System.Windows.Forms.Panel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
             this.panel28 = new System.Windows.Forms.Panel();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.button20 = new System.Windows.Forms.Button();
-            this.panel26 = new System.Windows.Forms.Panel();
+            this.subFinancas = new System.Windows.Forms.Panel();
             this.panel27 = new System.Windows.Forms.Panel();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.button18 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.panel31 = new System.Windows.Forms.Panel();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.button22 = new System.Windows.Forms.Button();
             this.panel29 = new System.Windows.Forms.Panel();
             this.button19 = new System.Windows.Forms.Button();
             this.panel30 = new System.Windows.Forms.Panel();
@@ -117,6 +117,10 @@
             this.button25 = new System.Windows.Forms.Button();
             this.panel35 = new System.Windows.Forms.Panel();
             this.button26 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.BarraTop.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -127,12 +131,7 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel5.SuspendLayout();
-            this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.ManutencaoOPS.SuspendLayout();
-            this.panel11.SuspendLayout();
+            this.subManutencao.SuspendLayout();
             this.panel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel13.SuspendLayout();
@@ -145,14 +144,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.panel17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            this.panel18.SuspendLayout();
+            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.SubCredenciados.SuspendLayout();
+            this.subAdministrador.SuspendLayout();
             this.panel20.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             this.panel21.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             this.panel23.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            this.panel8.SuspendLayout();
+            this.SubEmpresa.SuspendLayout();
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel19.SuspendLayout();
@@ -161,22 +165,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.panel24.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            this.panel9.SuspendLayout();
+            this.subEmpenho.SuspendLayout();
             this.panel25.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel28.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            this.panel26.SuspendLayout();
+            this.subFinancas.SuspendLayout();
             this.panel27.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             this.panel31.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             this.panel29.SuspendLayout();
             this.panel30.SuspendLayout();
             this.panel32.SuspendLayout();
             this.panel33.SuspendLayout();
             this.panel34.SuspendLayout();
             this.panel35.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // BarraTop
@@ -269,7 +274,7 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(80, 203);
+            this.panel2.Location = new System.Drawing.Point(0, 670);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(33, 28);
             this.panel2.TabIndex = 2;
@@ -287,7 +292,7 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(87, 101);
+            this.panel1.Location = new System.Drawing.Point(79, 162);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(33, 28);
             this.panel1.TabIndex = 1;
@@ -307,109 +312,30 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.MintCream;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel5.Controls.Add(this.panel1);
-            this.panel5.Controls.Add(this.panel11);
+            this.panel5.Controls.Add(this.panel8);
             this.panel5.Location = new System.Drawing.Point(-9, 57);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1389, 140);
             this.panel5.TabIndex = 4;
             // 
-            // panel7
+            // subManutencao
             // 
-            this.panel7.Controls.Add(this.pictureBox6);
-            this.panel7.Controls.Add(this.button3);
-            this.panel7.Location = new System.Drawing.Point(275, 15);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(112, 28);
-            this.panel7.TabIndex = 7;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.MintCream;
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(26, 22);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox6.TabIndex = 5;
-            this.pictureBox6.TabStop = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.MintCream;
-            this.button3.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
-            this.button3.Location = new System.Drawing.Point(-8, -9);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(137, 46);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "    Atuação";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.pictureBox5);
-            this.panel6.Controls.Add(this.button2);
-            this.panel6.Location = new System.Drawing.Point(140, 15);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(112, 28);
-            this.panel6.TabIndex = 6;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.MintCream;
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(26, 22);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox5.TabIndex = 5;
-            this.pictureBox5.TabStop = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.MintCream;
-            this.button2.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
-            this.button2.Location = new System.Drawing.Point(-8, -9);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(137, 46);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "      Regiões";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // ManutencaoOPS
-            // 
-            this.ManutencaoOPS.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.ManutencaoOPS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ManutencaoOPS.Controls.Add(this.panel4);
-            this.ManutencaoOPS.Controls.Add(this.panel7);
-            this.ManutencaoOPS.Controls.Add(this.panel6);
-            this.ManutencaoOPS.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.ManutencaoOPS.Location = new System.Drawing.Point(356, 225);
-            this.ManutencaoOPS.Name = "ManutencaoOPS";
-            this.ManutencaoOPS.Size = new System.Drawing.Size(1148, 46);
-            this.ManutencaoOPS.TabIndex = 5;
-            this.ManutencaoOPS.TabStop = true;
-            this.ManutencaoOPS.Visible = false;
-            // 
-            // panel11
-            // 
-            this.panel11.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.panel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel11.Controls.Add(this.panel12);
-            this.panel11.Controls.Add(this.panel13);
-            this.panel11.Controls.Add(this.panel14);
-            this.panel11.Controls.Add(this.panel15);
-            this.panel11.Controls.Add(this.panel16);
-            this.panel11.Controls.Add(this.panel17);
-            this.panel11.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.panel11.Location = new System.Drawing.Point(145, 92);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(1148, 46);
-            this.panel11.TabIndex = 11;
-            this.panel11.TabStop = true;
-            this.panel11.Visible = false;
+            this.subManutencao.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.subManutencao.BackColor = System.Drawing.Color.MintCream;
+            this.subManutencao.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.subManutencao.Controls.Add(this.panel12);
+            this.subManutencao.Controls.Add(this.panel13);
+            this.subManutencao.Controls.Add(this.panel14);
+            this.subManutencao.Controls.Add(this.panel15);
+            this.subManutencao.Controls.Add(this.panel16);
+            this.subManutencao.Controls.Add(this.panel17);
+            this.subManutencao.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.subManutencao.Location = new System.Drawing.Point(0, 704);
+            this.subManutencao.Name = "subManutencao";
+            this.subManutencao.Size = new System.Drawing.Size(777, 46);
+            this.subManutencao.TabIndex = 11;
+            this.subManutencao.TabStop = true;
+            this.subManutencao.Visible = false;
             // 
             // panel12
             // 
@@ -603,20 +529,101 @@
             this.button12.Text = "Avaliação";
             this.button12.UseVisualStyleBackColor = false;
             // 
-            // panel18
+            // panel7
             // 
-            this.panel18.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.panel18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel18.Controls.Add(this.panel20);
-            this.panel18.Controls.Add(this.panel21);
-            this.panel18.Controls.Add(this.panel23);
-            this.panel18.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.panel18.Location = new System.Drawing.Point(356, 277);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(1148, 46);
-            this.panel18.TabIndex = 12;
-            this.panel18.TabStop = true;
-            this.panel18.Visible = false;
+            this.panel7.Controls.Add(this.pictureBox6);
+            this.panel7.Controls.Add(this.button3);
+            this.panel7.Location = new System.Drawing.Point(275, 15);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(112, 28);
+            this.panel7.TabIndex = 7;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.MintCream;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox6.TabIndex = 5;
+            this.pictureBox6.TabStop = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.MintCream;
+            this.button3.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button3.Location = new System.Drawing.Point(-8, -9);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(137, 46);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "    Atuação";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.pictureBox5);
+            this.panel6.Controls.Add(this.button2);
+            this.panel6.Location = new System.Drawing.Point(140, 15);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(112, 28);
+            this.panel6.TabIndex = 6;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.MintCream;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox5.TabIndex = 5;
+            this.pictureBox5.TabStop = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.MintCream;
+            this.button2.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button2.Location = new System.Drawing.Point(-8, -9);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(137, 46);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "      Regiões";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // SubCredenciados
+            // 
+            this.SubCredenciados.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.SubCredenciados.BackColor = System.Drawing.Color.MintCream;
+            this.SubCredenciados.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.SubCredenciados.Controls.Add(this.panel4);
+            this.SubCredenciados.Controls.Add(this.panel7);
+            this.SubCredenciados.Controls.Add(this.panel6);
+            this.SubCredenciados.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.SubCredenciados.Location = new System.Drawing.Point(0, 704);
+            this.SubCredenciados.Name = "SubCredenciados";
+            this.SubCredenciados.Size = new System.Drawing.Size(398, 46);
+            this.SubCredenciados.TabIndex = 5;
+            this.SubCredenciados.TabStop = true;
+            this.SubCredenciados.Visible = false;
+            // 
+            // subAdministrador
+            // 
+            this.subAdministrador.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.subAdministrador.BackColor = System.Drawing.Color.MintCream;
+            this.subAdministrador.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.subAdministrador.Controls.Add(this.panel20);
+            this.subAdministrador.Controls.Add(this.panel21);
+            this.subAdministrador.Controls.Add(this.panel23);
+            this.subAdministrador.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.subAdministrador.Location = new System.Drawing.Point(0, 704);
+            this.subAdministrador.Name = "subAdministrador";
+            this.subAdministrador.Size = new System.Drawing.Size(396, 46);
+            this.subAdministrador.TabIndex = 12;
+            this.subAdministrador.TabStop = true;
+            this.subAdministrador.Visible = false;
             // 
             // panel20
             // 
@@ -714,21 +721,22 @@
             this.button17.Text = "      Cancelar o.s \r\n    Autorizada";
             this.button17.UseVisualStyleBackColor = false;
             // 
-            // panel8
+            // SubEmpresa
             // 
-            this.panel8.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel8.Controls.Add(this.panel10);
-            this.panel8.Controls.Add(this.panel19);
-            this.panel8.Controls.Add(this.panel22);
-            this.panel8.Controls.Add(this.panel24);
-            this.panel8.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.panel8.Location = new System.Drawing.Point(356, 329);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1148, 46);
-            this.panel8.TabIndex = 12;
-            this.panel8.TabStop = true;
-            this.panel8.Visible = false;
+            this.SubEmpresa.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.SubEmpresa.BackColor = System.Drawing.Color.MintCream;
+            this.SubEmpresa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.SubEmpresa.Controls.Add(this.panel10);
+            this.SubEmpresa.Controls.Add(this.panel19);
+            this.SubEmpresa.Controls.Add(this.panel22);
+            this.SubEmpresa.Controls.Add(this.panel24);
+            this.SubEmpresa.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.SubEmpresa.Location = new System.Drawing.Point(0, 704);
+            this.SubEmpresa.Name = "SubEmpresa";
+            this.SubEmpresa.Size = new System.Drawing.Size(542, 46);
+            this.SubEmpresa.TabIndex = 12;
+            this.SubEmpresa.TabStop = true;
+            this.SubEmpresa.Visible = false;
             // 
             // panel10
             // 
@@ -858,19 +866,20 @@
             this.button16.Text = "    Grupos\r\n     Secretarias";
             this.button16.UseVisualStyleBackColor = false;
             // 
-            // panel9
+            // subEmpenho
             // 
-            this.panel9.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel9.Controls.Add(this.panel25);
-            this.panel9.Controls.Add(this.panel28);
-            this.panel9.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.panel9.Location = new System.Drawing.Point(356, 381);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1148, 46);
-            this.panel9.TabIndex = 13;
-            this.panel9.TabStop = true;
-            this.panel9.Visible = false;
+            this.subEmpenho.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.subEmpenho.BackColor = System.Drawing.Color.MintCream;
+            this.subEmpenho.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.subEmpenho.Controls.Add(this.panel25);
+            this.subEmpenho.Controls.Add(this.panel28);
+            this.subEmpenho.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.subEmpenho.Location = new System.Drawing.Point(0, 704);
+            this.subEmpenho.Name = "subEmpenho";
+            this.subEmpenho.Size = new System.Drawing.Size(272, 46);
+            this.subEmpenho.TabIndex = 13;
+            this.subEmpenho.TabStop = true;
+            this.subEmpenho.Visible = false;
             // 
             // panel25
             // 
@@ -936,19 +945,20 @@
             this.button20.Text = "   Historico";
             this.button20.UseVisualStyleBackColor = false;
             // 
-            // panel26
+            // subFinancas
             // 
-            this.panel26.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.panel26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel26.Controls.Add(this.panel27);
-            this.panel26.Controls.Add(this.panel31);
-            this.panel26.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.panel26.Location = new System.Drawing.Point(356, 433);
-            this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(1148, 46);
-            this.panel26.TabIndex = 14;
-            this.panel26.TabStop = true;
-            this.panel26.Visible = false;
+            this.subFinancas.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.subFinancas.BackColor = System.Drawing.Color.MintCream;
+            this.subFinancas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.subFinancas.Controls.Add(this.panel27);
+            this.subFinancas.Controls.Add(this.panel31);
+            this.subFinancas.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.subFinancas.Location = new System.Drawing.Point(0, 704);
+            this.subFinancas.Name = "subFinancas";
+            this.subFinancas.Size = new System.Drawing.Size(272, 46);
+            this.subFinancas.TabIndex = 14;
+            this.subFinancas.TabStop = true;
+            this.subFinancas.Visible = false;
             // 
             // panel27
             // 
@@ -982,17 +992,14 @@
             this.button18.Text = "    Orçamentos";
             this.button18.UseVisualStyleBackColor = false;
             // 
-            // button22
+            // panel31
             // 
-            this.button22.BackColor = System.Drawing.Color.MintCream;
-            this.button22.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
-            this.button22.Location = new System.Drawing.Point(-8, -9);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(137, 46);
-            this.button22.TabIndex = 5;
-            this.button22.Text = "    Cancelar o.s \r\n  finalizada";
-            this.button22.UseVisualStyleBackColor = false;
+            this.panel31.Controls.Add(this.pictureBox25);
+            this.panel31.Controls.Add(this.button22);
+            this.panel31.Location = new System.Drawing.Point(140, 15);
+            this.panel31.Name = "panel31";
+            this.panel31.Size = new System.Drawing.Size(112, 28);
+            this.panel31.TabIndex = 6;
             // 
             // pictureBox25
             // 
@@ -1005,19 +1012,22 @@
             this.pictureBox25.TabIndex = 5;
             this.pictureBox25.TabStop = false;
             // 
-            // panel31
+            // button22
             // 
-            this.panel31.Controls.Add(this.pictureBox25);
-            this.panel31.Controls.Add(this.button22);
-            this.panel31.Location = new System.Drawing.Point(140, 15);
-            this.panel31.Name = "panel31";
-            this.panel31.Size = new System.Drawing.Size(112, 28);
-            this.panel31.TabIndex = 6;
+            this.button22.BackColor = System.Drawing.Color.MintCream;
+            this.button22.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button22.Location = new System.Drawing.Point(-8, -9);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(137, 46);
+            this.button22.TabIndex = 5;
+            this.button22.Text = "    Cancelar o.s \r\n  finalizada";
+            this.button22.UseVisualStyleBackColor = false;
             // 
             // panel29
             // 
             this.panel29.Controls.Add(this.button19);
-            this.panel29.Location = new System.Drawing.Point(83, 261);
+            this.panel29.Location = new System.Drawing.Point(82, 238);
             this.panel29.Name = "panel29";
             this.panel29.Size = new System.Drawing.Size(245, 37);
             this.panel29.TabIndex = 15;
@@ -1036,7 +1046,7 @@
             // panel30
             // 
             this.panel30.Controls.Add(this.button21);
-            this.panel30.Location = new System.Drawing.Point(83, 304);
+            this.panel30.Location = new System.Drawing.Point(82, 281);
             this.panel30.Name = "panel30";
             this.panel30.Size = new System.Drawing.Size(245, 37);
             this.panel30.TabIndex = 18;
@@ -1055,7 +1065,7 @@
             // panel32
             // 
             this.panel32.Controls.Add(this.button23);
-            this.panel32.Location = new System.Drawing.Point(83, 347);
+            this.panel32.Location = new System.Drawing.Point(82, 324);
             this.panel32.Name = "panel32";
             this.panel32.Size = new System.Drawing.Size(245, 37);
             this.panel32.TabIndex = 19;
@@ -1074,7 +1084,7 @@
             // panel33
             // 
             this.panel33.Controls.Add(this.button24);
-            this.panel33.Location = new System.Drawing.Point(83, 476);
+            this.panel33.Location = new System.Drawing.Point(82, 453);
             this.panel33.Name = "panel33";
             this.panel33.Size = new System.Drawing.Size(245, 37);
             this.panel33.TabIndex = 22;
@@ -1093,7 +1103,7 @@
             // panel34
             // 
             this.panel34.Controls.Add(this.button25);
-            this.panel34.Location = new System.Drawing.Point(83, 433);
+            this.panel34.Location = new System.Drawing.Point(82, 410);
             this.panel34.Name = "panel34";
             this.panel34.Size = new System.Drawing.Size(245, 37);
             this.panel34.TabIndex = 21;
@@ -1112,7 +1122,7 @@
             // panel35
             // 
             this.panel35.Controls.Add(this.button26);
-            this.panel35.Location = new System.Drawing.Point(83, 390);
+            this.panel35.Location = new System.Drawing.Point(82, 367);
             this.panel35.Name = "panel35";
             this.panel35.Size = new System.Drawing.Size(245, 37);
             this.panel35.TabIndex = 20;
@@ -1128,6 +1138,51 @@
             this.button26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button26.UseVisualStyleBackColor = true;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.label3.Location = new System.Drawing.Point(-3, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(166, 40);
+            this.label3.TabIndex = 23;
+            this.label3.Text = "Fornecedor";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.label5);
+            this.panel8.Controls.Add(this.label4);
+            this.panel8.Controls.Add(this.label3);
+            this.panel8.Location = new System.Drawing.Point(84, 16);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(573, 42);
+            this.panel8.TabIndex = 23;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.label4.Location = new System.Drawing.Point(178, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(97, 40);
+            this.label4.TabIndex = 23;
+            this.label4.Text = "Nome";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.label5.Location = new System.Drawing.Point(154, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(29, 40);
+            this.label5.TabIndex = 24;
+            this.label5.Text = "/";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -1135,17 +1190,19 @@
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel33);
+            this.Controls.Add(this.subFinancas);
+            this.Controls.Add(this.subManutencao);
             this.Controls.Add(this.panel32);
+            this.Controls.Add(this.SubCredenciados);
             this.Controls.Add(this.panel34);
             this.Controls.Add(this.panel30);
             this.Controls.Add(this.panel35);
             this.Controls.Add(this.panel29);
-            this.Controls.Add(this.panel26);
-            this.Controls.Add(this.panel9);
-            this.Controls.Add(this.panel8);
-            this.Controls.Add(this.panel18);
-            this.Controls.Add(this.ManutencaoOPS);
+            this.Controls.Add(this.subEmpenho);
+            this.Controls.Add(this.SubEmpresa);
+            this.Controls.Add(this.subAdministrador);
             this.Controls.Add(this.BarraTop);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel2);
@@ -1163,12 +1220,7 @@
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel5.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.ManutencaoOPS.ResumeLayout(false);
-            this.panel11.ResumeLayout(false);
+            this.subManutencao.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel13.ResumeLayout(false);
@@ -1181,14 +1233,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.panel17.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            this.panel18.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.SubCredenciados.ResumeLayout(false);
+            this.subAdministrador.ResumeLayout(false);
             this.panel20.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.panel21.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             this.panel23.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            this.panel8.ResumeLayout(false);
+            this.SubEmpresa.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel19.ResumeLayout(false);
@@ -1197,22 +1254,24 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.panel24.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            this.panel9.ResumeLayout(false);
+            this.subEmpenho.ResumeLayout(false);
             this.panel25.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel28.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            this.panel26.ResumeLayout(false);
+            this.subFinancas.ResumeLayout(false);
             this.panel27.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             this.panel31.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             this.panel29.ResumeLayout(false);
             this.panel30.ResumeLayout(false);
             this.panel32.ResumeLayout(false);
             this.panel33.ResumeLayout(false);
             this.panel34.ResumeLayout(false);
             this.panel35.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1238,8 +1297,8 @@
         private Panel panel6;
         private PictureBox pictureBox5;
         private Button button2;
-        private Panel ManutencaoOPS;
-        private Panel panel11;
+        private Panel SubCredenciados;
+        private Panel subManutencao;
         private Panel panel12;
         private PictureBox pictureBox10;
         private Button button7;
@@ -1258,7 +1317,7 @@
         private Panel panel17;
         private PictureBox pictureBox15;
         private Button button12;
-        private Panel panel18;
+        private Panel subAdministrador;
         private Panel panel20;
         private PictureBox pictureBox17;
         private Button button14;
@@ -1268,7 +1327,7 @@
         private Panel panel23;
         private PictureBox pictureBox20;
         private Button button17;
-        private Panel panel8;
+        private Panel SubEmpresa;
         private Panel panel10;
         private PictureBox pictureBox8;
         private Button button5;
@@ -1281,14 +1340,14 @@
         private Panel panel24;
         private PictureBox pictureBox19;
         private Button button16;
-        private Panel panel9;
+        private Panel subEmpenho;
         private Panel panel25;
         private PictureBox pictureBox7;
         private Button button4;
         private Panel panel28;
         private PictureBox pictureBox23;
         private Button button20;
-        private Panel panel26;
+        private Panel subFinancas;
         private Panel panel27;
         private PictureBox pictureBox21;
         private Button button18;
@@ -1307,5 +1366,9 @@
         private Button button25;
         private Panel panel35;
         private Button button26;
+        private Label label3;
+        private Panel panel8;
+        private Label label5;
+        private Label label4;
     }
 }
