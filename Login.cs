@@ -67,7 +67,7 @@ namespace SistemaFrotaV3
             //dr.Read();
 
             //try
-            //{
+            //{mamama
             //    if (dr.GetString(2) == text_senha.Text)
             //    {
             //        id_on = dr.GetString(0);
