@@ -69,8 +69,8 @@ namespace SistemaFrotaV3
 
         private void OpenM_Paint(object sender, PaintEventArgs e)
         {
-            // Mostra o menu
-            MenuAdm.Show(OpenM, new Point(OpenM.Width, 0));
+            // Mostra o menuu
+            //MenuAdm.Show(OpenM, new Point(OpenM.Width, 0));
 
             // Substitui o panel OpenM pelo panel ClosetM
             Controls.Remove(OpenM);
