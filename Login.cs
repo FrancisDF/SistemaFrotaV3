@@ -146,5 +146,10 @@ namespace SistemaFrotaV3
             }
             conexao.Close();
         }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

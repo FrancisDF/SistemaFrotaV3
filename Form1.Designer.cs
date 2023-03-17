@@ -37,10 +37,8 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.ClosetM = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
@@ -110,32 +108,33 @@
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.button22 = new System.Windows.Forms.Button();
             this.panel29 = new System.Windows.Forms.Panel();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.button19 = new System.Windows.Forms.Button();
             this.panel30 = new System.Windows.Forms.Panel();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.button21 = new System.Windows.Forms.Button();
             this.panel32 = new System.Windows.Forms.Panel();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.button23 = new System.Windows.Forms.Button();
             this.panel33 = new System.Windows.Forms.Panel();
+            this.pictureBox29 = new System.Windows.Forms.PictureBox();
             this.button24 = new System.Windows.Forms.Button();
             this.panel34 = new System.Windows.Forms.Panel();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
             this.button25 = new System.Windows.Forms.Button();
             this.panel35 = new System.Windows.Forms.Panel();
-            this.button26 = new System.Windows.Forms.Button();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
-            this.pictureBox28 = new System.Windows.Forms.PictureBox();
-            this.pictureBox29 = new System.Windows.Forms.PictureBox();
+            this.button26 = new System.Windows.Forms.Button();
+            this.MenuAdm = new System.Windows.Forms.Panel();
+            this.OpenM = new System.Windows.Forms.Panel();
+            this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.BarraTop.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel2.SuspendLayout();
+            this.ClosetM.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel5.SuspendLayout();
             this.panel8.SuspendLayout();
             this.subManutencao.SuspendLayout();
@@ -183,17 +182,20 @@
             this.panel31.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             this.panel29.SuspendLayout();
-            this.panel30.SuspendLayout();
-            this.panel32.SuspendLayout();
-            this.panel33.SuspendLayout();
-            this.panel34.SuspendLayout();
-            this.panel35.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            this.panel30.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            this.panel32.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            this.panel33.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
+            this.panel34.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            this.panel35.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            this.MenuAdm.SuspendLayout();
+            this.OpenM.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
             this.SuspendLayout();
             // 
             // BarraTop
@@ -211,7 +213,7 @@
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Location = new System.Drawing.Point(77, 3);
+            this.panel3.Location = new System.Drawing.Point(9, 3);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(342, 54);
             this.panel3.TabIndex = 3;
@@ -283,14 +285,15 @@
             this.button1.Text = "    Cadastro";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // panel2
+            // ClosetM
             // 
-            this.panel2.BackColor = System.Drawing.Color.MintCream;
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(0, 704);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(33, 28);
-            this.panel2.TabIndex = 2;
+            this.ClosetM.BackColor = System.Drawing.Color.MintCream;
+            this.ClosetM.Controls.Add(this.pictureBox2);
+            this.ClosetM.Location = new System.Drawing.Point(19, 104);
+            this.ClosetM.Name = "ClosetM";
+            this.ClosetM.Size = new System.Drawing.Size(48, 28);
+            this.ClosetM.TabIndex = 2;
+            this.ClosetM.Paint += new System.Windows.Forms.PaintEventHandler(this.ClosetM_Paint);
             // 
             // pictureBox2
             // 
@@ -301,32 +304,16 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.MintCream;
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(0, 704);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(33, 28);
-            this.panel1.TabIndex = 1;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(27, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.MintCream;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel5.Controls.Add(this.OpenM);
+            this.panel5.Controls.Add(this.ClosetM);
             this.panel5.Controls.Add(this.panel8);
+            this.panel5.Controls.Add(this.subManutencao);
             this.panel5.Location = new System.Drawing.Point(-9, 57);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1389, 140);
@@ -338,7 +325,7 @@
             this.panel8.Controls.Add(this.label4);
             this.panel8.Controls.Add(this.label3);
             this.panel8.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.panel8.Location = new System.Drawing.Point(84, 16);
+            this.panel8.Location = new System.Drawing.Point(19, 7);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(573, 42);
             this.panel8.TabIndex = 23;
@@ -390,7 +377,7 @@
             this.subManutencao.Controls.Add(this.panel16);
             this.subManutencao.Controls.Add(this.panel17);
             this.subManutencao.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.subManutencao.Location = new System.Drawing.Point(0, 704);
+            this.subManutencao.Location = new System.Drawing.Point(249, 92);
             this.subManutencao.Name = "subManutencao";
             this.subManutencao.Size = new System.Drawing.Size(777, 46);
             this.subManutencao.TabIndex = 11;
@@ -662,7 +649,7 @@
             this.SubCredenciados.Controls.Add(this.panel7);
             this.SubCredenciados.Controls.Add(this.panel6);
             this.SubCredenciados.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.SubCredenciados.Location = new System.Drawing.Point(0, 704);
+            this.SubCredenciados.Location = new System.Drawing.Point(324, 459);
             this.SubCredenciados.Name = "SubCredenciados";
             this.SubCredenciados.Size = new System.Drawing.Size(398, 46);
             this.SubCredenciados.TabIndex = 5;
@@ -678,7 +665,7 @@
             this.subAdministrador.Controls.Add(this.panel21);
             this.subAdministrador.Controls.Add(this.panel23);
             this.subAdministrador.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.subAdministrador.Location = new System.Drawing.Point(0, 704);
+            this.subAdministrador.Location = new System.Drawing.Point(198, 698);
             this.subAdministrador.Name = "subAdministrador";
             this.subAdministrador.Size = new System.Drawing.Size(396, 46);
             this.subAdministrador.TabIndex = 12;
@@ -791,7 +778,7 @@
             this.SubEmpresa.Controls.Add(this.panel22);
             this.SubEmpresa.Controls.Add(this.panel24);
             this.SubEmpresa.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.SubEmpresa.Location = new System.Drawing.Point(0, 704);
+            this.SubEmpresa.Location = new System.Drawing.Point(668, 362);
             this.SubEmpresa.Name = "SubEmpresa";
             this.SubEmpresa.Size = new System.Drawing.Size(542, 46);
             this.SubEmpresa.TabIndex = 12;
@@ -934,7 +921,7 @@
             this.subEmpenho.Controls.Add(this.panel25);
             this.subEmpenho.Controls.Add(this.panel28);
             this.subEmpenho.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.subEmpenho.Location = new System.Drawing.Point(0, 704);
+            this.subEmpenho.Location = new System.Drawing.Point(660, 634);
             this.subEmpenho.Name = "subEmpenho";
             this.subEmpenho.Size = new System.Drawing.Size(272, 46);
             this.subEmpenho.TabIndex = 13;
@@ -1013,7 +1000,7 @@
             this.subFinancas.Controls.Add(this.panel27);
             this.subFinancas.Controls.Add(this.panel31);
             this.subFinancas.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.subFinancas.Location = new System.Drawing.Point(0, 704);
+            this.subFinancas.Location = new System.Drawing.Point(140, 640);
             this.subFinancas.Name = "subFinancas";
             this.subFinancas.Size = new System.Drawing.Size(272, 46);
             this.subFinancas.TabIndex = 14;
@@ -1090,10 +1077,22 @@
             this.panel29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel29.Controls.Add(this.pictureBox26);
             this.panel29.Controls.Add(this.button19);
-            this.panel29.Location = new System.Drawing.Point(581, 285);
+            this.panel29.Location = new System.Drawing.Point(0, 0);
             this.panel29.Name = "panel29";
             this.panel29.Size = new System.Drawing.Size(245, 37);
             this.panel29.TabIndex = 15;
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
+            this.pictureBox26.Location = new System.Drawing.Point(-7, -8);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(15, 44);
+            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox26.TabIndex = 25;
+            this.pictureBox26.TabStop = false;
+            this.pictureBox26.Visible = false;
             // 
             // button19
             // 
@@ -1112,10 +1111,22 @@
             this.panel30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel30.Controls.Add(this.pictureBox24);
             this.panel30.Controls.Add(this.button21);
-            this.panel30.Location = new System.Drawing.Point(581, 319);
+            this.panel30.Location = new System.Drawing.Point(0, 34);
             this.panel30.Name = "panel30";
             this.panel30.Size = new System.Drawing.Size(245, 37);
             this.panel30.TabIndex = 18;
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
+            this.pictureBox24.Location = new System.Drawing.Point(-7, -8);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(15, 44);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox24.TabIndex = 24;
+            this.pictureBox24.TabStop = false;
+            this.pictureBox24.Visible = false;
             // 
             // button21
             // 
@@ -1134,10 +1145,22 @@
             this.panel32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel32.Controls.Add(this.pictureBox22);
             this.panel32.Controls.Add(this.button23);
-            this.panel32.Location = new System.Drawing.Point(581, 355);
+            this.panel32.Location = new System.Drawing.Point(0, 70);
             this.panel32.Name = "panel32";
             this.panel32.Size = new System.Drawing.Size(245, 37);
             this.panel32.TabIndex = 19;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
+            this.pictureBox22.Location = new System.Drawing.Point(-7, -8);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(15, 44);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox22.TabIndex = 23;
+            this.pictureBox22.TabStop = false;
+            this.pictureBox22.Visible = false;
             // 
             // button23
             // 
@@ -1157,10 +1180,22 @@
             this.panel33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel33.Controls.Add(this.pictureBox29);
             this.panel33.Controls.Add(this.button24);
-            this.panel33.Location = new System.Drawing.Point(581, 459);
+            this.panel33.Location = new System.Drawing.Point(0, 174);
             this.panel33.Name = "panel33";
             this.panel33.Size = new System.Drawing.Size(245, 37);
             this.panel33.TabIndex = 22;
+            // 
+            // pictureBox29
+            // 
+            this.pictureBox29.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
+            this.pictureBox29.Location = new System.Drawing.Point(-7, -8);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(15, 44);
+            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox29.TabIndex = 25;
+            this.pictureBox29.TabStop = false;
+            this.pictureBox29.Visible = false;
             // 
             // button24
             // 
@@ -1179,10 +1214,22 @@
             this.panel34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel34.Controls.Add(this.pictureBox28);
             this.panel34.Controls.Add(this.button25);
-            this.panel34.Location = new System.Drawing.Point(581, 423);
+            this.panel34.Location = new System.Drawing.Point(0, 138);
             this.panel34.Name = "panel34";
             this.panel34.Size = new System.Drawing.Size(245, 37);
             this.panel34.TabIndex = 21;
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
+            this.pictureBox28.Location = new System.Drawing.Point(-7, -1);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(15, 44);
+            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox28.TabIndex = 24;
+            this.pictureBox28.TabStop = false;
+            this.pictureBox28.Visible = false;
             // 
             // button25
             // 
@@ -1201,57 +1248,10 @@
             this.panel35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel35.Controls.Add(this.pictureBox27);
             this.panel35.Controls.Add(this.button26);
-            this.panel35.Location = new System.Drawing.Point(581, 389);
+            this.panel35.Location = new System.Drawing.Point(0, 104);
             this.panel35.Name = "panel35";
             this.panel35.Size = new System.Drawing.Size(245, 37);
             this.panel35.TabIndex = 20;
-            // 
-            // button26
-            // 
-            this.button26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
-            this.button26.Location = new System.Drawing.Point(-7, -8);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(265, 54);
-            this.button26.TabIndex = 17;
-            this.button26.Text = "   Empenho";
-            this.button26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button26.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
-            this.pictureBox22.Location = new System.Drawing.Point(-7, -8);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(15, 44);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox22.TabIndex = 23;
-            this.pictureBox22.TabStop = false;
-            this.pictureBox22.Visible = false;
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(-7, -8);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(15, 44);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox24.TabIndex = 24;
-            this.pictureBox24.TabStop = false;
-            this.pictureBox24.Visible = false;
-            // 
-            // pictureBox26
-            // 
-            this.pictureBox26.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
-            this.pictureBox26.Location = new System.Drawing.Point(-7, -8);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(15, 44);
-            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox26.TabIndex = 25;
-            this.pictureBox26.TabStop = false;
-            this.pictureBox26.Visible = false;
             // 
             // pictureBox27
             // 
@@ -1265,29 +1265,50 @@
             this.pictureBox27.TabStop = false;
             this.pictureBox27.Visible = false;
             // 
-            // pictureBox28
+            // button26
             // 
-            this.pictureBox28.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
-            this.pictureBox28.Location = new System.Drawing.Point(-7, -1);
-            this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(15, 44);
-            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox28.TabIndex = 24;
-            this.pictureBox28.TabStop = false;
-            this.pictureBox28.Visible = false;
+            this.button26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.button26.Location = new System.Drawing.Point(-7, -8);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(265, 54);
+            this.button26.TabIndex = 17;
+            this.button26.Text = "   Empenho";
+            this.button26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button26.UseVisualStyleBackColor = true;
             // 
-            // pictureBox29
+            // MenuAdm
             // 
-            this.pictureBox29.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
-            this.pictureBox29.Location = new System.Drawing.Point(-7, -8);
-            this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(15, 44);
-            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox29.TabIndex = 25;
-            this.pictureBox29.TabStop = false;
-            this.pictureBox29.Visible = false;
+            this.MenuAdm.Controls.Add(this.panel29);
+            this.MenuAdm.Controls.Add(this.panel33);
+            this.MenuAdm.Controls.Add(this.panel30);
+            this.MenuAdm.Controls.Add(this.panel34);
+            this.MenuAdm.Controls.Add(this.panel32);
+            this.MenuAdm.Controls.Add(this.panel35);
+            this.MenuAdm.Location = new System.Drawing.Point(0, 196);
+            this.MenuAdm.Name = "MenuAdm";
+            this.MenuAdm.Size = new System.Drawing.Size(281, 212);
+            this.MenuAdm.TabIndex = 23;
+            this.MenuAdm.Paint += new System.Windows.Forms.PaintEventHandler(this.MenuAdm_Paint);
+            // 
+            // OpenM
+            // 
+            this.OpenM.BackColor = System.Drawing.Color.MintCream;
+            this.OpenM.Controls.Add(this.pictureBox30);
+            this.OpenM.Location = new System.Drawing.Point(19, 104);
+            this.OpenM.Name = "OpenM";
+            this.OpenM.Size = new System.Drawing.Size(36, 28);
+            this.OpenM.TabIndex = 2;
+            this.OpenM.Paint += new System.Windows.Forms.PaintEventHandler(this.OpenM_Paint);
+            // 
+            // pictureBox30
+            // 
+            this.pictureBox30.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox30.Image")));
+            this.pictureBox30.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox30.Name = "pictureBox30";
+            this.pictureBox30.Size = new System.Drawing.Size(27, 28);
+            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox30.TabIndex = 1;
+            this.pictureBox30.TabStop = false;
             // 
             // Form1
             // 
@@ -1296,17 +1317,9 @@
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1370, 749);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel33);
-            this.Controls.Add(this.panel34);
-            this.Controls.Add(this.panel35);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.MenuAdm);
             this.Controls.Add(this.subFinancas);
-            this.Controls.Add(this.subManutencao);
-            this.Controls.Add(this.panel32);
             this.Controls.Add(this.SubCredenciados);
-            this.Controls.Add(this.panel30);
-            this.Controls.Add(this.panel29);
             this.Controls.Add(this.subEmpenho);
             this.Controls.Add(this.SubEmpresa);
             this.Controls.Add(this.subAdministrador);
@@ -1321,10 +1334,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel2.ResumeLayout(false);
+            this.ClosetM.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
@@ -1373,17 +1384,20 @@
             this.panel31.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             this.panel29.ResumeLayout(false);
-            this.panel30.ResumeLayout(false);
-            this.panel32.ResumeLayout(false);
-            this.panel33.ResumeLayout(false);
-            this.panel34.ResumeLayout(false);
-            this.panel35.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            this.panel30.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            this.panel32.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            this.panel33.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
+            this.panel34.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            this.panel35.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            this.MenuAdm.ResumeLayout(false);
+            this.OpenM.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1391,14 +1405,11 @@
         #endregion
 
         private Panel BarraTop;
-        private Panel panel1;
-        private PictureBox pictureBox1;
         private Panel panel3;
         private Label label2;
         private Label label1;
         private PictureBox pictureBox3;
         private PictureBox pictureBox2;
-        private Panel panel2;
         private Panel panel4;
         private Panel panel5;
         private PictureBox pictureBox4;
@@ -1488,5 +1499,9 @@
         private PictureBox pictureBox29;
         private PictureBox pictureBox28;
         private PictureBox pictureBox27;
+        private Panel MenuAdm;
+        public Panel ClosetM;
+        private Panel OpenM;
+        private PictureBox pictureBox30;
     }
 }

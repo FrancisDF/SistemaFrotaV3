@@ -33,7 +33,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.text_login = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -43,6 +42,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.text_senha = new System.Windows.Forms.TextBox();
+            this.text_login = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -66,13 +66,13 @@
             this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.text_login);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.panel6);
             this.panel3.Controls.Add(this.panel5);
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Controls.Add(this.comboBox1);
             this.panel3.Controls.Add(this.text_senha);
+            this.panel3.Controls.Add(this.text_login);
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(210, 264);
@@ -100,15 +100,6 @@
             this.label2.Size = new System.Drawing.Size(38, 15);
             this.label2.TabIndex = 6;
             this.label2.Text = "senha";
-            // 
-            // text_login
-            // 
-            this.text_login.BackColor = System.Drawing.Color.White;
-            this.text_login.Location = new System.Drawing.Point(30, 100);
-            this.text_login.Multiline = true;
-            this.text_login.Name = "text_login";
-            this.text_login.Size = new System.Drawing.Size(142, 18);
-            this.text_login.TabIndex = 5;
             // 
             // label1
             // 
@@ -197,6 +188,15 @@
             this.text_senha.Name = "text_senha";
             this.text_senha.Size = new System.Drawing.Size(142, 18);
             this.text_senha.TabIndex = 1;
+            // 
+            // text_login
+            // 
+            this.text_login.BackColor = System.Drawing.Color.White;
+            this.text_login.Location = new System.Drawing.Point(30, 102);
+            this.text_login.Multiline = true;
+            this.text_login.Name = "text_login";
+            this.text_login.Size = new System.Drawing.Size(142, 18);
+            this.text_login.TabIndex = 5;
             // 
             // panel2
             // 
